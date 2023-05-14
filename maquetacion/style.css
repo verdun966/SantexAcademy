@@ -1,0 +1,68 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    border-bottom: 1px solid grey;
+    padding: 16px 50em;
+    justify-content: space-between;
+}
+
+#navbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#navbar-image {
+    margin-left: -450px;
+    width: 180px;
+}
+
+p {
+    margin-right: 2em;
+}
+
+#introduction-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+#introduction-actions {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.redondo {
+    background-color: white;
+    border-radius: 2em;
+    border: 2px solid black;
+    padding: 0 1.2em;
+    height: 2.2em;
+    font-size: 1em;
+}
+
+
+
+
+
+@media (width >= 2700px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+@media (width >= 3200) {
+    html{
+        font-size: 24px;
+    }
+}
